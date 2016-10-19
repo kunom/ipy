@@ -231,7 +231,7 @@ namespace IronPython.Runtime.Exceptions {
                 if (_traceAdapter != null) {
                     return _lineNo;
                 } else {
-                    return -1; // make it clear that this is not a valid result
+                    return 1;
                 }
             }
             set {
